@@ -18,7 +18,8 @@
     "validate": "npm-run-all --parallel check-format lint",
     "release": "npm run validate && node ./scripts/release",
     "changelog": "npx conventional-changelog -p angular -i CHANGELOG.md -u -s",
-    "build-sponsors": "node ./scripts/build-sponsors.js"
+    "build-sponsors": "node ./scripts/build-sponsors.js",
+    "run-ios": "npx cap run ios"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
