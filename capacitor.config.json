@@ -1,0 +1,5 @@
+{
+  "appId": "com.polydelic.test",
+  "appName": "My Capacitor App",
+  "webDir": "kitchen-sink/svelte/dist"
+}

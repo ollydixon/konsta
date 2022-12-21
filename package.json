@@ -7,12 +7,6 @@
   "author": "Vladimir Kharlampidi",
   "scripts": {
     "build": "cross-env NODE_ENV=production node scripts/build",
-    "/*============ React Kitchen Sink ============*/": "============",
-    "react": "cross-env NODE_ENV=development vite ./kitchen-sink/react",
-    "build-react-ks": "cross-env NODE_ENV=production vite build ./kitchen-sink/react",
-    "/*============ Vue Kitchen Sink ============*/": "============",
-    "vue": "cross-env NODE_ENV=development vite ./kitchen-sink/vue",
-    "build-vue-ks": "cross-env NODE_ENV=production vite build ./kitchen-sink/vue",
     "/*============ Svelte Kitchen Sink ============*/": "============",
     "svelte": "cross-env NODE_ENV=development vite ./kitchen-sink/svelte",
     "build-svelte-ks": "cross-env NODE_ENV=production vite build ./kitchen-sink/svelte",
@@ -72,6 +66,9 @@
     "vue-router": "^4.0.14"
   },
   "dependencies": {
+    "@capacitor/cli": "^4.6.1",
+    "@capacitor/core": "^4.6.1",
+    "@capacitor/ios": "^4.6.1",
     "konsta": "file:src"
   }
 }
